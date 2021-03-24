@@ -1,0 +1,59 @@
+body{
+    margin: 50px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.head1{
+    text-align: center;
+    font-family:Palace Script MT ;
+    font: bold;
+    font-size: 55px;
+    padding: 20px 30px;
+    border: 4px dotted rgba(216, 200, 181, 0.788); 
+    color:whitesmoke;
+    padding: 10px;
+    text-decoration:underline;  
+    display: inline-block;
+    
+
+}
+.APJ{
+    
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px 10px;
+    border: dotted 3px rgba(176, 205, 209, 0.589);
+    border: width 30px ;
+    display: block;
+}
+.extstyle{
+    padding: 20px 40px;
+    margin: 30px;
+    border: 5px ridge;
+}
+h3{
+    font-style: oblique;
+    font-size: 30px;
+    font-family: emoji;
+    color:#CDF3ED ;
+    text-decoration: underline;
+}
+p{
+    text-align: justify;
+    color: aquamarine;
+    font-family:'Times New Roman', Times, serif;
+}
+ .extstyle div p{                 /*Descendant Selector */
+    color: violet;
+}
+  .main div >h3 {                  /* Child Selector */
+    color:yellowgreen;
+}
+ div+h3{                            /*adj sibling selector*/
+    background-color: green;
+}
+div ~p{                             /*General Sibling Selector*/
+    background-color: ivory;
+}
+
